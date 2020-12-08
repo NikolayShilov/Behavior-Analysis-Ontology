@@ -240,7 +240,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.w3.org/2006/time#inXSDDateTimeStamp"/>
         <NamedIndividual IRI="#t_a"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2004-04-12T13:15:00Z</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2004-04-12T13:20:00Z</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.w3.org/2006/time#inXSDDateTimeStamp"/>
