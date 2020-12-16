@@ -41,6 +41,20 @@
         <DataProperty IRI="#action_type"/>
     </Declaration>
     <SubClassOf>
+        <Class IRI="#Behavior"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_user"/>
+            <Class IRI="#User"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Context"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_user"/>
+            <Class IRI="#User"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Instant_Behavior"/>
         <Class IRI="#Behavior"/>
     </SubClassOf>
