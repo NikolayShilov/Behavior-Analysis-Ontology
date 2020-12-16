@@ -59,16 +59,58 @@
         <Class IRI="#Behavior"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Instant_Behavior"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.w3.org/2006/time#hasTime"/>
+            <Class IRI="http://www.w3.org/2006/time#Instant"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Instant_Context"/>
         <Class IRI="#Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Instant_Context"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.w3.org/2006/time#hasTime"/>
+            <Class IRI="http://www.w3.org/2006/time#Instant"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Temporal_Behavior"/>
         <Class IRI="#Behavior"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Temporal_Behavior"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.w3.org/2006/time#hasTime"/>
+            <Class IRI="http://www.w3.org/2006/time#Interval"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Temporal_Context"/>
         <Class IRI="#Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temporal_Context"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.w3.org/2006/time#hasTime"/>
+            <Class IRI="http://www.w3.org/2006/time#Interval"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/2006/time#Interval"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.w3.org/2006/time#hasBeginning"/>
+            <Class IRI="http://www.w3.org/2006/time#Instant"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/2006/time#Interval"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.w3.org/2006/time#hasEnd"/>
+            <Class IRI="http://www.w3.org/2006/time#Instant"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#has_user"/>
