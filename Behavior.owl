@@ -48,6 +48,13 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Behavior"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#action_type"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Context"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#has_user"/>
